@@ -2,15 +2,6 @@
 import { ref } from "vue";
 const show = ref(false);
 </script>
-<script>
-import { Dialog } from "vant";
-
-export default {
-  components: {
-    [Dialog.Component.name]: Dialog.Component,
-  },
-};
-</script>
 
 <template>
   <button @click="show = !show">toggleShow</button>
